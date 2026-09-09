@@ -1,0 +1,1799 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sujal K.R. — Digital Marketing Expert | SEO, GEO, Performance & AI</title>
+  
+  <meta name="description" content="Portfolio of Sujal K.R., a Digital Marketing Expert specializing in Performance Marketing, SEO, Generative Engine Optimization (GEO), Meta/Google Ads, AI workflows, and Vibe Coding.">
+  <meta name="keywords" content="Sujal K.R., Sujal Kumar Rajput, Digital Marketing, SEO, GEO, Performance Marketing, Meta Ads, Google Ads, Vibe Coding, PokePharma, DIDM">
+  <meta name="author" content="Sujal K.R.">
+  <link rel="canonical" href="https://sujalkr.com">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sujal K.R. — Digital Growth Systems & Performance Marketing">
+  <meta property="og:description" content="Combining strategy, search engine optimization (SEO/GEO), performance media, and AI execution to drive exponential digital growth.">
+  <meta property="og:url" content="https://sujalkr.com">
+  <meta property="og:image" content="assets/og-image.jpg">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Sujal K.R. — Digital Marketing Expert">
+  <meta name="twitter:description" content="Digital Marketing, Performance Ads, SEO, GEO & Vibe Coding.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    /* ==========================================================================
+       GLOBAL DESIGN SYSTEM & VARIABLES
+       ========================================================================== */
+    :root {
+      --bg: #05070B;
+      --surface: #0B0E14;
+      --surface-light: #121722;
+
+      --text: #F5F7FA;
+      --muted: #8994A6;
+      --muted-dark: #4A5568;
+
+      --blue: #3B82F6;
+      --cyan: #29d2df;
+      --violet: #8B5CF6;
+      --lime: #00FF66;
+
+      --border: rgba(255,255,255,0.08);
+      --border-hover: rgba(0, 217, 255, 0.3);
+
+      --font-display: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+      --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+      --transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    /* Base Reset */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: var(--font-body);
+      font-size: 16px;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body {
+      overflow-x: hidden;
+      position: relative;
+      background-image: 
+        radial-gradient(circle at 15% 20%, rgba(0, 217, 255, 0.03) 0%, transparent 40%),
+        radial-gradient(circle at 85% 60%, rgba(0, 255, 102, 0.02) 0%, transparent 40%),
+        linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+      background-size: 100% 100%, 100% 100%, 50px 50px, 50px 50px;
+    }
+
+    /* Typography Hierarchy */
+    h1, h2, h3, h4 {
+      font-family: var(--font-display);
+      font-weight: 700;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      transition: var(--transition);
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    .text-gradient {
+      background: linear-gradient(135deg, #FFFFFF 0%, var(--cyan) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .accent-dot {
+      color: var(--cyan);
+    }
+
+    .section-padding {
+      padding: 120px 0;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+
+    .section-label {
+      font-family: var(--font-display);
+      font-size: 0.85rem;
+      letter-spacing: 0.15em;
+      color: var(--lime);
+      margin-bottom: 1rem;
+    }
+
+    .section-title {
+      font-size: clamp(2rem, 4vw, 3.5rem);
+      margin-bottom: 2rem;
+    }
+
+    .section-subtitle {
+      color: var(--muted);
+      font-size: 1.2rem;
+      margin-top: -1.5rem;
+      margin-bottom: 3rem;
+    }
+
+    /* Custom Cursor */
+    @media (hover: hover) and (pointer: fine) {
+      body {
+        cursor: none;
+      }
+
+      .cursor-dot {
+        width: 6px;
+        height: 6px;
+        background-color: var(--cyan);
+        border-radius: 50%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+        z-index: 9999;
+        transform: translate(-50%, -50%);
+      }
+
+      .cursor-glow {
+        width: 32px;
+        height: 32px;
+        border: 1px solid rgba(0, 217, 255, 0.4);
+        border-radius: 50%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+        z-index: 9998;
+        transform: translate(-50%, -50%);
+        transition: width 0.2s, height 0.2s, border-color 0.2s;
+      }
+
+      body.cursor-hover .cursor-glow {
+        width: 55px;
+        height: 55px;
+        background: rgba(0, 217, 255, 0.05);
+        border-color: var(--lime);
+      }
+    }
+
+    /* Curved Pill Buttons & Badges */
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 14px 28px;
+      background-color: #FFFFFF;
+      color: #000000;
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 0.85rem;
+      letter-spacing: 0.05em;
+      border-radius: 50px;
+      border: 1px solid #FFFFFF;
+      cursor: pointer;
+      transition: var(--transition);
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    }
+
+    .btn-primary:hover {
+      background-color: var(--cyan);
+      border-color: var(--cyan);
+      color: #000000;
+      box-shadow: 0 0 25px rgba(0, 217, 255, 0.4);
+      transform: translateY(-2px);
+    }
+
+    .btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 14px 28px;
+      background-color: rgba(255, 255, 255, 0.03);
+      color: var(--text);
+      font-family: var(--font-display);
+      font-weight: 600;
+      font-size: 0.85rem;
+      letter-spacing: 0.05em;
+      border: 1px solid var(--border);
+      border-radius: 50px;
+      transition: var(--transition);
+    }
+
+    .btn-secondary:hover {
+      border-color: var(--cyan);
+      color: var(--cyan);
+      background: rgba(0, 217, 255, 0.05);
+      transform: translateY(-2px);
+    }
+
+    .availability-badge {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.75rem;
+      letter-spacing: 0.08em;
+      color: var(--text);
+      font-weight: 600;
+    }
+
+    .status-pulse {
+      width: 8px;
+      height: 8px;
+      background-color: var(--lime);
+      border-radius: 50%;
+      box-shadow: 0 0 10px var(--lime);
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(1.2); }
+      100% { opacity: 1; transform: scale(1); }
+    }
+
+    /* ==========================================================================
+       01 — HEADER (Curved Shell Bar)
+       ========================================================================== */
+    .header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+      padding: 20px 0;
+      transition: var(--transition);
+    }
+
+    .header.scrolled {
+      padding: 12px 0;
+      background: rgba(5, 7, 11, 0.85);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .header-container {
+      width: 90%;
+      max-width: 1280px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .brand-logo {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 1.25rem;
+      letter-spacing: 0.05em;
+      display: flex;
+      align-items: center;
+    }
+
+    .desktop-nav {
+      display: flex;
+      gap: 32px;
+      background: rgba(255, 255, 255, 0.03);
+      padding: 10px 28px;
+      border-radius: 50px;
+      border: 1px solid var(--border);
+    }
+
+    .nav-link {
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      color: var(--muted);
+      font-weight: 600;
+    }
+
+    .nav-link:hover {
+      color: var(--cyan);
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .btn-resume {
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      padding: 8px 18px;
+      border: 1px solid var(--border);
+      border-radius: 50px;
+      color: var(--text);
+      background: rgba(255, 255, 255, 0.02);
+      transition: var(--transition);
+    }
+
+    .btn-resume:hover {
+      border-color: var(--cyan);
+      color: var(--cyan);
+    }
+
+    .mobile-toggle {
+      display: none;
+      background: none;
+      border: none;
+      cursor: pointer;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .mobile-toggle span {
+      width: 24px;
+      height: 2px;
+      background-color: var(--text);
+      transition: var(--transition);
+    }
+
+    .mobile-nav-overlay {
+      position: fixed;
+      inset: 0;
+      background-color: var(--bg);
+      z-index: 999;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 40px;
+      opacity: 0;
+      pointer-events: none;
+      transition: var(--transition);
+    }
+
+    .mobile-nav-overlay.active {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .mobile-nav-links {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      margin-bottom: 40px;
+    }
+
+    .mobile-link {
+      font-family: var(--font-display);
+      font-size: 2rem;
+      font-weight: 700;
+    }
+
+    /* ==========================================================================
+       02 — HERO & CAROUSEL TEXT
+       ========================================================================== */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      padding-top: 100px;
+      position: relative;
+    }
+
+    .hero-container {
+      width: 90%;
+      max-width: 1280px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .pill-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.7rem;
+      letter-spacing: 0.12em;
+      padding: 6px 16px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border);
+      margin-bottom: 24px;
+      border-radius: 50px;
+      color: var(--cyan);
+      font-weight: 600;
+    }
+
+    /* Carousel Text Container */
+    .hero-carousel {
+      position: relative;
+      min-height: 220px;
+      margin-bottom: 24px;
+    }
+
+    .carousel-slide {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      opacity: 0;
+      transform: translateY(15px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+      pointer-events: none;
+    }
+
+    .carousel-slide.active {
+      opacity: 1;
+      transform: translateY(0);
+      pointer-events: auto;
+    }
+
+    .hero-title {
+      font-size: clamp(2.5rem, 4.5vw, 4rem);
+      line-height: 1.05;
+      text-transform: uppercase;
+    }
+
+    .hero-subtitle {
+      font-size: 1.05rem;
+      color: var(--muted);
+      max-width: 540px;
+      margin-bottom: 36px;
+      line-height: 1.6;
+    }
+
+    .hero-cta-group {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    /* Core Focus Tag */
+    .core-focus-bar {
+      margin-top: 30px;
+      font-size: 0.8rem;
+      color: var(--muted);
+      letter-spacing: 0.05em;
+    }
+
+    .core-focus-bar span {
+      color: var(--cyan);
+      font-weight: 700;
+    }
+
+    /* ==========================================================================
+       03 — SYSTEM ANIMATION GRAPHIC (Right Side Interactive Map)
+       ========================================================================== */
+    .system-container {
+      position: relative;
+      width: 100%;
+      height: 520px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Central Pulse Node */
+    .central-node {
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(0, 217, 255, 0.15) 0%, rgba(5, 7, 11, 0.8) 80%);
+      border: 1px solid rgba(0, 217, 255, 0.5);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      z-index: 10;
+      box-shadow: 0 0 30px rgba(0, 217, 255, 0.2), inset 0 0 15px rgba(0, 217, 255, 0.2);
+      animation: pulseCore 4s infinite ease-in-out;
+    }
+
+    .central-node::before {
+      content: '';
+      position: absolute;
+      inset: -12px;
+      border-radius: 50%;
+      border: 1px dashed rgba(0, 217, 255, 0.3);
+      animation: spin 25s linear infinite;
+    }
+
+    .central-node-label {
+      font-size: 0.65rem;
+      letter-spacing: 0.15em;
+      color: var(--cyan);
+      font-weight: 700;
+    }
+
+    .central-node-title {
+      font-family: var(--font-display);
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #FFFFFF;
+      line-height: 1.1;
+      margin-top: 2px;
+    }
+
+    @keyframes pulseCore {
+      0%, 100% { box-shadow: 0 0 30px rgba(0, 217, 255, 0.2), inset 0 0 15px rgba(0, 217, 255, 0.2); }
+      50% { box-shadow: 0 0 50px rgba(0, 217, 255, 0.4), inset 0 0 25px rgba(0, 217, 255, 0.4); }
+    }
+
+    @keyframes spin {
+      100% { transform: rotate(360deg); }
+    }
+
+    /* Orbit SVG Lines */
+    .system-svg {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      pointer-events: none;
+    }
+
+    /* Satellite Orbiting Nodes */
+    .system-node {
+      position: absolute;
+      padding: 8px 18px;
+      background: rgba(11, 14, 20, 0.85);
+      border: 1px solid var(--border);
+      border-radius: 50px;
+      font-family: var(--font-display);
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      backdrop-filter: blur(8px);
+      z-index: 5;
+      transition: var(--transition);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    }
+
+    .system-node:hover {
+      border-color: var(--cyan);
+      color: var(--cyan);
+      box-shadow: 0 0 15px rgba(0, 217, 255, 0.3);
+      transform: scale(1.05);
+    }
+
+    .node-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background-color: var(--cyan);
+    }
+
+    /* Node Positioning */
+    .node-seo { top: 10%; right: 28%; }
+    .node-ai { top: 32%; left: 12%; }
+    .node-data { bottom: 32%; left: 18%; }
+    .node-ads { top: 36%; right: 8%; }
+    .node-geo { bottom: 30%; right: 12%; }
+    .node-vibe { bottom: 12%; right: 28%; }
+
+    .step-tag {
+      position: absolute;
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+      background: rgba(255, 255, 255, 0.03);
+      padding: 4px 10px;
+      border-radius: 50px;
+      border: 1px solid var(--border);
+    }
+
+    .step-strategy { top: 22%; left: 24%; }
+    .step-optimize { bottom: 22%; right: 8%; }
+
+    /* Moving Pulsing Dots along path */
+    .pulse-particle {
+      fill: var(--cyan);
+      filter: drop-shadow(0 0 6px var(--cyan));
+    }
+
+    /* ==========================================================================
+       04 — SECTIONS, GRIDS & LAYOUTS
+       ========================================================================== */
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: start;
+    }
+
+    .about-headline h2 {
+      font-size: clamp(2rem, 3.5vw, 3rem);
+    }
+
+    .lead-text {
+      font-size: 1.2rem;
+      color: var(--text);
+      margin-bottom: 24px;
+    }
+
+    .about-body p {
+      color: var(--muted);
+      margin-bottom: 24px;
+    }
+
+    .capability-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .tag {
+      font-size: 0.75rem;
+      padding: 6px 16px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 50px;
+      color: var(--muted);
+    }
+
+    .principles-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 24px;
+    }
+
+    .principle-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 32px;
+      border-radius: 12px;
+      transition: var(--transition);
+    }
+
+    .principle-card:hover {
+      border-color: var(--border-hover);
+      transform: translateY(-4px);
+    }
+
+    .principle-num {
+      font-family: var(--font-display);
+      color: var(--cyan);
+      font-size: 0.9rem;
+      margin-bottom: 16px;
+    }
+
+    .principle-card h3 {
+      font-size: 1.25rem;
+      margin-bottom: 12px;
+    }
+
+    .principle-card p {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    /* Skills Grid */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 32px;
+    }
+
+    .skill-category {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 32px;
+      border-radius: 12px;
+    }
+
+    .category-title {
+      font-size: 0.9rem;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+      margin-bottom: 24px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 12px;
+    }
+
+    .skill-nodes {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skill-node {
+      font-size: 0.85rem;
+      padding: 8px 16px;
+      background: var(--surface-light);
+      border: 1px solid var(--border);
+      border-radius: 50px;
+      color: var(--text);
+      cursor: default;
+      transition: var(--transition);
+    }
+
+    .skill-node:hover {
+      border-color: var(--cyan);
+      color: var(--cyan);
+    }
+
+    /* Case Studies & Work */
+    .case-study-featured {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 48px;
+      margin-bottom: 32px;
+    }
+
+    .case-meta {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+
+    .badge-featured {
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      padding: 4px 12px;
+      background: var(--lime);
+      color: #000000;
+      font-weight: 700;
+      border-radius: 50px;
+    }
+
+    .case-industry {
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    .case-title {
+      font-size: 2rem;
+      margin-bottom: 8px;
+    }
+
+    .case-tagline {
+      color: var(--cyan);
+      font-family: var(--font-display);
+      margin-bottom: 32px;
+    }
+
+    .case-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 40px;
+    }
+
+    .case-description {
+      color: var(--muted);
+      margin-bottom: 24px;
+    }
+
+    .case-breakdown {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 24px;
+      font-size: 0.9rem;
+    }
+
+    .breakdown-item strong {
+      color: var(--text);
+    }
+
+    .case-deliverables-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .d-chip {
+      font-size: 0.75rem;
+      padding: 4px 14px;
+      border: 1px solid var(--border-hover);
+      border-radius: 50px;
+      color: var(--muted);
+    }
+
+    .case-ecosystem {
+      background: var(--surface-light);
+      border: 1px solid var(--border);
+      padding: 24px;
+      border-radius: 12px;
+      text-align: center;
+    }
+
+    .ecosystem-title {
+      font-size: 0.75rem;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+      margin-bottom: 20px;
+    }
+
+    .pipeline {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .pipe-step {
+      font-family: var(--font-display);
+      font-size: 0.8rem;
+      letter-spacing: 0.05em;
+      padding: 8px 16px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 50px;
+      width: 100%;
+    }
+
+    .pipe-arrow {
+      color: var(--cyan);
+      font-size: 0.8rem;
+    }
+
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 32px;
+    }
+
+    .project-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 32px;
+      border-radius: 12px;
+    }
+
+    .project-num {
+      font-family: var(--font-display);
+      color: var(--muted-dark);
+      font-size: 0.9rem;
+      margin-bottom: 12px;
+    }
+
+    .project-category {
+      font-size: 0.75rem;
+      letter-spacing: 0.1em;
+      color: var(--cyan);
+      margin-bottom: 8px;
+    }
+
+    .project-name {
+      font-size: 1.25rem;
+      margin-bottom: 12px;
+    }
+
+    .project-desc {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-bottom: 20px;
+    }
+
+    .project-meta-tags {
+      display: flex;
+      gap: 12px;
+      font-size: 0.75rem;
+      color: var(--muted-dark);
+    }
+
+    /* Qualifications & Timeline */
+    .timeline {
+      position: relative;
+      max-width: 800px;
+      border-left: 1px solid var(--border);
+      padding-left: 32px;
+      margin-left: 16px;
+    }
+
+    .timeline-item {
+      position: relative;
+      margin-bottom: 48px;
+    }
+
+    .timeline-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .timeline-marker {
+      position: absolute;
+      left: -37px;
+      top: 4px;
+      width: 9px;
+      height: 9px;
+      background: var(--cyan);
+      border-radius: 50%;
+    }
+
+    .timeline-date {
+      font-size: 0.75rem;
+      letter-spacing: 0.1em;
+      color: var(--lime);
+      margin-bottom: 8px;
+      display: block;
+    }
+
+    .timeline-title {
+      font-size: 1.5rem;
+      margin-bottom: 4px;
+    }
+
+    .timeline-institution {
+      font-size: 1rem;
+      color: var(--muted);
+      font-weight: 400;
+      margin-bottom: 12px;
+    }
+
+    .timeline-desc {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    /* Toolkit Grid */
+    .tools-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 24px;
+    }
+
+    .tool-group {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 24px;
+      border-radius: 12px;
+    }
+
+    .tool-group-title {
+      font-size: 0.75rem;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+      margin-bottom: 16px;
+    }
+
+    .tool-list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .tool-pill {
+      font-size: 0.85rem;
+      color: var(--text);
+    }
+
+    /* Statement */
+    .martech-statement {
+      text-align: center;
+      background: var(--surface);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .martech-heading {
+      font-size: clamp(2.5rem, 5vw, 4.5rem);
+      margin-bottom: 24px;
+    }
+
+    .martech-body {
+      max-width: 640px;
+      margin: 0 auto;
+      color: var(--muted);
+      font-size: 1.2rem;
+    }
+
+    /* Contact Section */
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+    }
+
+    .contact-title {
+      font-size: clamp(2rem, 4vw, 3.5rem);
+      margin-bottom: 24px;
+    }
+
+    .contact-sub {
+      color: var(--muted);
+      font-size: 1.1rem;
+      margin-bottom: 40px;
+    }
+
+    .contact-details {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .c-label {
+      display: block;
+      font-size: 0.75rem;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+      margin-bottom: 4px;
+    }
+
+    .c-value {
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      color: var(--text);
+    }
+
+    .c-value:hover {
+      color: var(--cyan);
+    }
+
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .form-group label {
+      font-size: 0.75rem;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+    }
+
+    .form-group input,
+    .form-group textarea {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 14px 18px;
+      color: var(--text);
+      font-family: var(--font-body);
+      font-size: 0.95rem;
+      border-radius: 8px;
+      outline: none;
+      transition: var(--transition);
+    }
+
+    .form-group input:focus,
+    .form-group textarea:focus {
+      border-color: var(--cyan);
+    }
+
+    .error-msg {
+      font-size: 0.75rem;
+      color: #FF5555;
+      display: none;
+    }
+
+    .form-status {
+      font-size: 0.85rem;
+      margin-top: 8px;
+    }
+
+    /* Footer */
+    .footer {
+      border-top: 1px solid var(--border);
+      padding: 40px 0;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    .footer-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .footer-brand {
+      font-family: var(--font-display);
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    /* Mobile Responsive Rules */
+    @media (max-width: 992px) {
+      .hero-container,
+      .about-grid,
+      .case-grid,
+      .contact-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .desktop-nav,
+      .header-actions .btn-resume,
+      .header-actions .availability-badge {
+        display: none;
+      }
+
+      .mobile-toggle {
+        display: flex;
+      }
+
+      .system-container {
+        height: 420px;
+      }
+
+      .case-study-featured {
+        padding: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <header class="header" id="header">
+    <div class="header-container">
+      <a href="#" class="brand-logo">
+        SUJAL<span class="accent-dot">.</span>K<span class="accent-dot">.</span>R<span class="accent-dot">.</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <a href="#about" class="nav-link">ABOUT</a>
+        <a href="#skills" class="nav-link">SKILLS</a>
+        <a href="#work" class="nav-link">WORK</a>
+        <a href="#qualifications" class="nav-link">QUALIFICATIONS</a>
+        <a href="#contact" class="nav-link">CONTACT</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="availability-badge">
+          <span class="status-pulse"></span>
+          <span class="status-text">AVAILABLE</span>
+        </div>
+        <a href="https://1drv.ms/b/c/7B809D3C6601D146/IQD_zr0S6egXQ4IdNAlIgISAAbmKFxPDoqGApybWFMcMo0o?e=9ji7Kv" class="btn-resume" target="_blank" rel="noopener">RESUME ↗</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-nav-overlay" id="mobileNav">
+    <div class="mobile-nav-content">
+      <nav class="mobile-nav-links">
+        <a href="#about" class="mobile-link">ABOUT</a>
+        <a href="#skills" class="mobile-link">SKILLS</a>
+        <a href="#work" class="mobile-link">WORK</a>
+        <a href="#qualifications" class="mobile-link">QUALIFICATIONS</a>
+        <a href="#contact" class="mobile-link">CONTACT</a>
+      </nav>
+      <div class="mobile-nav-footer">
+        <div class="availability-badge">
+          <span class="status-pulse"></span>
+          <span class="status-text">OPEN TO OPPORTUNITIES</span>
+        </div>
+        <a href="https://1drv.ms/b/c/7B809D3C6601D146/IQD_zr0S6egXQ4IdNAlIgISAAbmKFxPDoqGApybWFMcMo0o?e=9ji7Kv" class="btn-primary" target="_blank" rel="noopener">VIEW RESUME ↗</a>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="pill-tag">
+            <span class="status-pulse"></span> DIGITAL MARKETING × AI × GROWTH
+          </div>
+
+          <div class="hero-carousel" id="heroCarousel">
+            <div class="carousel-slide active">
+              <h1 class="hero-title">
+                I TURN IDEAS <br>
+                INTO DIGITAL <br>
+                <span class="text-gradient">GROWTH.</span>
+              </h1>
+            </div>
+            <div class="carousel-slide">
+              <h1 class="hero-title">
+                DIGITAL MARKETING <br>
+                <span class="text-gradient">THAT MOVES</span> <br>
+                BUSINESS.
+              </h1>
+            </div>
+            <div class="carousel-slide">
+              <h1 class="hero-title">
+                ENGINEERING <br>
+                HIGH-CONVERTING <br>
+                <span class="text-gradient">FUNNELS.</span>
+              </h1>
+            </div>
+          </div>
+
+          <p class="hero-subtitle">
+            Digital growth professional specializing in performance marketing, technical SEO, generative AI-driven workflows, and high-converting modern digital experiences.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#work" class="btn-primary">VIEW MY WORK →</a>
+            <a href="#contact" class="btn-secondary">LET'S CONNECT ↗</a>
+          </div>
+
+          <div class="core-focus-bar">
+            CORE FOCUS // <span>PERFORMANCE MARKETING</span>
+          </div>
+        </div>
+
+        <div class="system-container" style="height: 680px; width: 100%;">
+  <svg class="system-svg" viewBox="0 0 700 700" style="width: 100%; height: 100%; position: absolute; z-index: 1;">
+    <circle cx="350" cy="350" r="280" stroke="rgba(0, 217, 255, 0.15)" stroke-width="1" stroke-dasharray="6,6" fill="none" />
+    <circle cx="350" cy="350" r="180" stroke="rgba(255, 255, 255, 0.08)" stroke-width="1" fill="none" />
+
+    <line x1="350" y1="350" x2="350" y2="70" stroke="rgba(0, 217, 255, 0.25)" stroke-width="1.5" stroke-dasharray="4,4" />
+    <line x1="350" y1="350" x2="550" y2="130" stroke="rgba(0, 217, 255, 0.25)" stroke-width="1.5" stroke-dasharray="4,4" />
+    <line x1="350" y1="350" x2="630" y2="280" stroke="rgba(0, 217, 255, 0.25)" stroke-width="1.5" stroke-dasharray="4,4" />
+    <line x1="350" y1="350" x2="590" y2="480" stroke="rgba(0, 217, 255, 0.25)" stroke-width="1.5" stroke-dasharray="4,4" />
+    <line x1="350" y1="350" x2="450" y2="620" stroke="rgba(0, 217, 255, 0.25)" stroke-width="1.5" stroke-dasharray="4,4" />
+    <line x1="350" y1="350" x2="250" y2="620" stroke="rgba(0, 217, 255, 0.25)" stroke-width="1.5" stroke-dasharray="4,4" />
+    <line x1="350" y1="350" x2="110" y2="480" stroke="rgba(0, 217, 255, 0.25)" stroke-width="1.5" stroke-dasharray="4,4" />
+    <line x1="350" y1="350" x2="70" y2="280" stroke="rgba(0, 217, 255, 0.25)" stroke-width="1.5" stroke-dasharray="4,4" />
+    <line x1="350" y1="350" x2="150" y2="130" stroke="rgba(0, 217, 255, 0.25)" stroke-width="1.5" stroke-dasharray="4,4" />
+
+    <circle class="pulse-particle" r="4"><animateMotion path="M 350,350 L 350,70" dur="3s" repeatCount="indefinite" /></circle>
+    <circle class="pulse-particle" r="4"><animateMotion path="M 350,350 L 550,130" dur="4s" repeatCount="indefinite" /></circle>
+    <circle class="pulse-particle" r="4"><animateMotion path="M 350,350 L 630,280" dur="2.8s" repeatCount="indefinite" /></circle>
+    <circle class="pulse-particle" r="4"><animateMotion path="M 350,350 L 590,480" dur="3.5s" repeatCount="indefinite" /></circle>
+    <circle class="pulse-particle" r="4"><animateMotion path="M 350,350 L 450,620" dur="4.2s" repeatCount="indefinite" /></circle>
+    <circle class="pulse-particle" r="4"><animateMotion path="M 350,350 L 250,620" dur="3.1s" repeatCount="indefinite" /></circle>
+    <circle class="pulse-particle" r="4"><animateMotion path="M 350,350 L 110,480" dur="3.8s" repeatCount="indefinite" /></circle>
+    <circle class="pulse-particle" r="4"><animateMotion path="M 350,350 L 70,280" dur="2.5s" repeatCount="indefinite" /></circle>
+    <circle class="pulse-particle" r="4"><animateMotion path="M 350,350 L 150,130" dur="3.3s" repeatCount="indefinite" /></circle>
+  </svg>
+
+  <div class="central-node" style="width: 180px; height: 180px; top: calc(50% - 90px); left: calc(50% - 90px);">
+    <span class="central-node-label">ECOSYSTEM</span>
+    <span class="central-node-title" style="font-size: 1.1rem;">DIGITAL<br>GROWTH</span>
+  </div>
+
+  <div class="system-node" style="top: 8%; left: 50%; transform: translateX(-50%);"><span class="node-dot"></span> PERFORMANCE MARKETING</div>
+  <div class="system-node" style="top: 16%; right: 12%;"><span class="node-dot"></span> SEO & GEO</div>
+  <div class="system-node" style="top: 38%; right: 2%;"><span class="node-dot"></span> PROMPT ENGINEERING</div>
+  <div class="system-node" style="top: 66%; right: 8%;"><span class="node-dot"></span> VIBE CODING</div>
+  <div class="system-node" style="bottom: 8%; right: 28%;"><span class="node-dot"></span> META & GOOGLE ADS</div>
+  <div class="system-node" style="bottom: 15%; left: 30%;"><span class="node-dot"></span> AI AUTOMATION</div>
+  <div class="system-node" style="top: 66%; left: 8%;"><span class="node-dot"></span> DATA & ANALYTICS</div>
+  <div class="system-node" style="top: 38%; left: 2%;"><span class="node-dot"></span> LEAD FUNNELS</div>
+  <div class="system-node" style="top: 16%; left: 12%;"><span class="node-dot"></span> CONVERSION UX</div>
+
+  <div class="step-tag" style="top: 20%; left: 60%;">01 / RESEARCH & AI PROMPTS</div>
+  <div class="step-tag" style="top: 28%; right: 28%;">02 / TRAFFIC & SEO/GEO</div>
+  <div class="step-tag" style="bottom: 28%; right: 90%;">03 / PAID AD CONVERSIONS</div>
+  <div class="step-tag" style="bottom: 40%; left: 60%;">04 / DATA OPTIMIZATION</div>
+</div>
+      
+    </section>
+
+    <section class="about section-padding" id="about">
+      <div class="container">
+        <div class="section-label">01 // ABOUT SUJAL K.R.</div>
+        <div class="about-grid">
+          <div class="about-headline">
+            <h2>
+              I DON'T JUST MARKET<span class="accent-dot">.</span><br>
+              I BUILD DIGITAL<br>
+              <span class="text-gradient">GROWTH SYSTEMS.</span>
+            </h2>
+          </div>
+          <div class="about-body">
+            <p class="lead-text">
+              I am a freelance digital marketer, web builder, and performance specialist bridging the gap between traditional search optimization, modern AI discovery engines, and conversion design.
+            </p>
+            <p>
+              With practical experience executing end-to-end digital strategies—including founding platforms like <strong>PokePharma</strong> and designing tailored workflows for institutional and organic search visibility—I blend technical precision with marketing psychology.
+            </p>
+            <div class="capability-tags">
+              <span class="tag">Performance Marketing</span>
+              <span class="tag">SEO & GEO</span>
+              <span class="tag">Meta & Google Ads</span>
+              <span class="tag">AI Workflows</span>
+              <span class="tag">Liquid / WordPress / Custom Web</span>
+              <span class="tag">Vibe Coding</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="how-i-think section-padding">
+      <div class="container">
+        <div class="section-label">02 // METHODOLOGY</div>
+        <h2 class="section-title">HOW I THINK<span class="accent-dot">.</span></h2>
+
+        <div class="principles-grid">
+          <div class="principle-card">
+            <div class="principle-num">01</div>
+            <h3>STRATEGY</h3>
+            <p>Deep-diving into business dynamics, audience psychology, and competitive gaps before writing a line of copy or launching an ad set.</p>
+          </div>
+          <div class="principle-card">
+            <div class="principle-num">02</div>
+            <h3>DATA</h3>
+            <p>Leveraging Search Console, web analytics, and campaign metrics to let behavioral proof dictate scaling and budget reallocation.</p>
+          </div>
+          <div class="principle-card">
+            <div class="principle-num">03</div>
+            <h3>CREATIVITY</h3>
+            <p>Crafting sharp, high-converting ad assets, visual stories, and messaging frameworks that capture attention in high-noise feeds.</p>
+          </div>
+          <div class="principle-card">
+            <div class="principle-num">04</div>
+            <h3>TECHNOLOGY</h3>
+            <p>Deploying AI automation, generative engine optimization (GEO), and direct web prototyping to execute at 10x velocity.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section-padding" id="skills">
+      <div class="container">
+        <div class="section-label">03 // CORE COMPETENCIES</div>
+        <h2 class="section-title">SKILLS ECOSYSTEM<span class="accent-dot">.</span></h2>
+
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3 class="category-title">PERFORMANCE MARKETING</h3>
+            <div class="skill-nodes">
+              <div class="skill-node">Meta Ads</div>
+              <div class="skill-node">Google Ads</div>
+              <div class="skill-node">Campaign Strategy</div>
+              <div class="skill-node">Audience Targeting</div>
+              <div class="skill-node">Conversion Optimization</div>
+              <div class="skill-node">Performance Analysis</div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="category-title">SEO & GEO</h3>
+            <div class="skill-nodes">
+              <div class="skill-node">SEO</div>
+              <div class="skill-node">GEO</div>
+              <div class="skill-node">Keyword Research</div>
+              <div class="skill-node">On-Page SEO</div>
+              <div class="skill-node">Search Console</div>
+              <div class="skill-node">Search Strategy</div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="category-title">CONTENT & SOCIAL</h3>
+            <div class="skill-nodes">
+              <div class="skill-node">Content Strategy</div>
+              <div class="skill-node">Social Media Marketing</div>
+              <div class="skill-node">Ad Copywriting</div>
+              <div class="skill-node">Creative Strategy</div>
+              <div class="skill-node">Brand Communication</div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="category-title">DATA & ANALYTICS</h3>
+            <div class="skill-nodes">
+              <div class="skill-node">Google Analytics</div>
+              <div class="skill-node">Search Console</div>
+              <div class="skill-node">Campaign Analysis</div>
+              <div class="skill-node">Performance Tracking</div>
+              <div class="skill-node">Reporting</div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="category-title">AI & VIBE CODING</h3>
+            <div class="skill-nodes">
+              <div class="skill-node">AI-Assisted Workflows</div>
+              <div class="skill-node">Generative AI</div>
+              <div class="skill-node">Vibe Coding</div>
+              <div class="skill-node">HTML</div>
+              <div class="skill-node">CSS</div>
+              <div class="skill-node">JavaScript</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="work section-padding" id="work">
+      <div class="container">
+        <div class="section-label">04 // CASE STUDIES & PROJECTS</div>
+        <h2 class="section-title">SELECTED WORK<span class="accent-dot">.</span></h2>
+        <p class="section-subtitle">Strategy. Execution. Experimentation. Growth.</p>
+
+        <div class="case-study-featured">
+          <div class="case-header">
+            <div class="case-meta">
+              <span class="badge-featured">FEATURED CASE STUDY</span>
+              <span class="case-industry">Healthcare & E-Commerce</span>
+            </div>
+            <h3 class="case-title">PokePharma — "Pharma In Your Pocket"</h3>
+            <p class="case-tagline">Healthcare at the Speed of Life.</p>
+          </div>
+
+          <div class="case-grid">
+            <div class="case-info">
+              <p class="case-description">
+                Designed, developed, and launched <strong>PokePharma.fun</strong>, a modern digital healthcare and online pharmacy platform. Executed an integrated end-to-end strategy spanning technical web build, GEO/SEO setup, and Meta ad campaign assets.
+              </p>
+
+              <div class="case-breakdown">
+                <div class="breakdown-item">
+                  <strong>Role:</strong> Digital Marketing Lead, Web Developer & Growth Strategist
+                </div>
+                <div class="breakdown-item">
+                  <strong>Deliverables:</strong> Brand Identity, Web UI/UX, JSON-LD Schema Markup, Meta Ad Storyboards, Google Search Console Indexing Roadmap
+                </div>
+                <div class="breakdown-item">
+                  <strong>Tools Used:</strong> Shopify/Liquid, JavaScript, Google Search Console, Meta Ads Manager, Generative AI Suite
+                </div>
+              </div>
+
+              <div class="case-deliverables-list">
+                <span class="d-chip">SEO & GEO Setup</span>
+                <span class="d-chip">Meta Ads Strategy</span>
+                <span class="d-chip">Liquid Theme Architecture</span>
+                <span class="d-chip">Lead Gen Funnel</span>
+              </div>
+            </div>
+
+            <div class="case-ecosystem">
+              <div class="ecosystem-title">GROWTH ECOSYSTEM PIPELINE</div>
+              <div class="pipeline">
+                <div class="pipe-step">BRAND</div>
+                <div class="pipe-arrow">↓</div>
+                <div class="pipe-step">WEBSITE</div>
+                <div class="pipe-arrow">↓</div>
+                <div class="pipe-step">SEARCH & GEO</div>
+                <div class="pipe-arrow">↓</div>
+                <div class="pipe-step">META ADS</div>
+                <div class="pipe-arrow">↓</div>
+                <div class="pipe-step">ACQUISITION</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-num">02</div>
+            <div class="project-category">ORGANIC SEARCH & GEO</div>
+            <h4 class="project-name">Azaya Organic Keyword Architecture</h4>
+            <p class="project-desc">Extracted and structured core search intent datasets, formulating on-page optimization strategies for organic organic traffic discovery.</p>
+            <div class="project-meta-tags">
+              <span>SEO</span>
+              <span>Keyword Strategy</span>
+              <span>Intent Mapping</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-num">03</div>
+            <div class="project-category">UI/UX & CONTENT STRATEGY</div>
+            <h4 class="project-name">DIDM Kalkaji Architecture Blueprint</h4>
+            <p class="project-desc">Architected a 15-section high-converting homepage content flowchart for Delhi Institute of Digital Marketing (DIDM) branch focus.</p>
+            <div class="project-meta-tags">
+              <span>Conversion Copy</span>
+              <span>UX Planning</span>
+              <span>Information Architecture</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="qualifications section-padding" id="qualifications">
+      <div class="container">
+        <div class="section-label">05 // BACKGROUND</div>
+        <h2 class="section-title">QUALIFICATIONS<span class="accent-dot">.</span></h2>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">PROFESSIONAL EDUCATION</span>
+              <h3 class="timeline-title">Master in Digital Marketing</h3>
+              <h4 class="timeline-institution">Delhi Institute of Digital Marketing (DIDM)</h4>
+              <p class="timeline-desc">Specialized offline program covering Performance Marketing, Search Engine Optimization (SEO), Social Media Marketing, Analytics, and Campaign Strategy.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">SECONDARY EDUCATION (CBSE)</span>
+              <h3 class="timeline-title">Class 12 — Physics, Chemistry, Biology (PCB)</h3>
+              <h4 class="timeline-institution">Central Board of Secondary Education</h4>
+              <p class="timeline-desc">Strong foundational background in scientific inquiry, analytical problem solving, and experimental methodology.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="toolkit section-padding">
+      <div class="container">
+        <div class="section-label">06 // STACK</div>
+        <h2 class="section-title">TECHNOLOGY & TOOLKIT<span class="accent-dot">.</span></h2>
+
+        <div class="tools-grid">
+          <div class="tool-group">
+            <div class="tool-group-title">MARKETING & ADS</div>
+            <div class="tool-list">
+              <span class="tool-pill">Meta Ads Manager</span>
+              <span class="tool-pill">Google Ads</span>
+              <span class="tool-pill">Facebook Pixel / CAPI</span>
+            </div>
+          </div>
+
+          <div class="tool-group">
+            <div class="tool-group-title">SEO & SEARCH</div>
+            <div class="tool-list">
+              <span class="tool-pill">Google Search Console</span>
+              <span class="tool-pill">Google Analytics (GA4)</span>
+              <span class="tool-pill">JSON-LD Schema</span>
+            </div>
+          </div>
+
+          <div class="tool-group">
+            <div class="tool-group-title">DEVELOPMENT & CMS</div>
+            <div class="tool-list">
+              <span class="tool-pill">Shopify / Liquid</span>
+              <span class="tool-pill">WordPress / Elementor</span>
+              <span class="tool-pill">HTML5 / CSS3 / JS</span>
+            </div>
+          </div>
+
+          <div class="tool-group">
+            <div class="tool-group-title">AI & WORKFLOWS</div>
+            <div class="tool-list">
+              <span class="tool-pill">OpenAI / LLMs</span>
+              <span class="tool-pill">Midjourney</span>
+              <span class="tool-pill">Vibe Coding Workflows</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="martech-statement section-padding">
+      <div class="container">
+        <div class="martech-content">
+          <h2 class="martech-heading">
+            MARKETING <br>
+            <span class="text-gradient">MEETS</span> <br>
+            TECHNOLOGY<span class="accent-dot">.</span>
+          </h2>
+          <p class="martech-body">
+            I use strategy, data, creativity, and emerging technology to turn digital ideas into experiences people can discover, understand, and act on.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section-padding" id="contact">
+      <div class="container">
+        <div class="section-label">07 // GET IN TOUCH</div>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h2 class="contact-title">
+              LET'S BUILD <br>
+              <span class="text-gradient">SOMETHING</span> <br>
+              MEANINGFUL<span class="accent-dot">.</span>
+            </h2>
+            <p class="contact-sub">
+              Open to digital marketing roles, performance growth projects, SEO/GEO setups, and high-impact agency collaborations.
+            </p>
+
+            <div class="contact-details">
+              <div class="c-item">
+                <span class="c-label">EMAIL</span>
+                <a href="mailto:sujalkumarrajput05@gmail.com" class="c-value">sujalkumarrajput05@gmail.com</a>
+              </div>
+              <div class="c-item">
+                <span class="c-label">Contact</span>
+                <a href="tel:+919899177588" class="c-value">📞 Call Me</a>
+              </div>
+              <div class="c-item">
+                <span class="c-label">Instagram</span>
+                <a href="https://www.instagram.com/pokepharma.fun/?hl=en" target="_blank" class="c-value">📸 PokePharma</a>
+              </div>
+              <div class="c-item">
+                <span class="c-label">Facebook</span>
+                <a href="https://www.facebook.com/profile.php?id=61591332424439" target="_blank" class="c-value">📘 Facebook</a>
+              </div>
+              <div class="c-item">
+                <span class="c-label">WhatsApp</span>
+                <a href="https://wa.me/919899177588" target="_blank" class="c-value">💬 Chat on WhatsApp</a>
+              </div>
+              <div class="c-item">
+                <span class="c-label">LINKEDIN</span>
+                <a href="https://linkedin.com/in/sujalkr" class="c-value" target="_blank" rel="noopener">linkedin.com/in/sujalkr ↗</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-container">
+            <form class="contact-form" id="contactForm" novalidate>
+              <div class="form-group">
+                <label for="name">NAME</label>
+                <input type="text" id="name" name="name" placeholder="Your name or company" required>
+                <span class="error-msg" id="nameError">Please enter your name</span>
+              </div>
+
+              <div class="form-group">
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                <span class="error-msg" id="emailError">Please enter a valid email address</span>
+              </div>
+
+              <div class="form-group">
+                <label for="opportunity">OPPORTUNITY / PROJECT</label>
+                <input type="text" id="opportunity" name="opportunity" placeholder="Full-time role, SEO Audit, Meta Ads, Web Build...">
+              </div>
+
+              <div class="form-group">
+                <label for="message">MESSAGE</label>
+                <textarea id="message" name="message" rows="4" placeholder="Tell me about your goals..." required></textarea>
+                <span class="error-msg" id="messageError">Please enter your message</span>
+              </div>
+
+              <button type="submit" class="btn-primary form-submit">SEND MESSAGE ↗</button>
+              <div class="form-status" id="formStatus"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <div class="footer-brand">SUJAL<span class="accent-dot">.</span>K<span class="accent-dot">.</span>R<span class="accent-dot">.</span></div>
+        <p class="footer-tagline">Digital Marketing × Growth × Technology</p>
+      </div>
+
+      <div class="footer-center">
+        <div class="availability-badge">
+          <span class="status-pulse"></span>
+          <span class="status-text">OPEN TO STRATEGIC OPPORTUNITIES & CONSULTING</span>
+        </div>
+      </div>
+
+      <div class="footer-right">
+        <p class="copyright">&copy; 2026 Sujal K.R. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // 1. Header Scroll State
+      const header = document.getElementById('header');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) {
+          header.classList.add('scrolled');
+        } else {
+          header.classList.remove('scrolled');
+        }
+      });
+
+      // 2. Custom Cursor
+      const cursorDot = document.getElementById('cursorDot');
+      const cursorGlow = document.getElementById('cursorGlow');
+
+      if (cursorDot && cursorGlow) {
+        window.addEventListener('mousemove', (e) => {
+          cursorDot.style.left = `${e.clientX}px`;
+          cursorDot.style.top = `${e.clientY}px`;
+
+          cursorGlow.style.left = `${e.clientX}px`;
+          cursorGlow.style.top = `${e.clientY}px`;
+        });
+
+        const hoverables = document.querySelectorAll('a, button, .system-node, .skill-node, .principle-card');
+        hoverables.forEach(el => {
+          el.addEventListener('mouseenter', () => document.body.classList.add('cursor-hover'));
+          el.addEventListener('mouseleave', () => document.body.classList.remove('cursor-hover'));
+        });
+      }
+
+      // 3. Mobile Menu Navigation Toggle
+      const mobileToggle = document.getElementById('mobileToggle');
+      const mobileNav = document.getElementById('mobileNav');
+      const mobileLinks = document.querySelectorAll('.mobile-link');
+
+      if (mobileToggle && mobileNav) {
+        mobileToggle.addEventListener('click', () => {
+          mobileNav.classList.toggle('active');
+        });
+
+        mobileLinks.forEach(link => {
+          link.addEventListener('click', () => {
+            mobileNav.classList.remove('active');
+          });
+        });
+      }
+
+      // 4. Hero Heading Text Carousel Auto-Rotation
+      const slides = document.querySelectorAll('.hero-carousel .carousel-slide');
+      let currentSlide = 0;
+
+      if (slides.length > 0) {
+        setInterval(() => {
+          slides[currentSlide].classList.remove('active');
+          currentSlide = (currentSlide + 1) % slides.length;
+          slides[currentSlide].classList.add('active');
+        }, 4000);
+      }
+
+      // 5. Contact Form Validation
+      const contactForm = document.getElementById('contactForm');
+      const formStatus = document.getElementById('formStatus');
+
+      if (contactForm) {
+        contactForm.addEventListener('submit', (e) => {
+          e.preventDefault();
+
+          const nameInput = document.getElementById('name');
+          const emailInput = document.getElementById('email');
+          const messageInput = document.getElementById('message');
+
+          const nameError = document.getElementById('nameError');
+          const emailError = document.getElementById('emailError');
+          const messageError = document.getElementById('messageError');
+
+          let isValid = true;
+
+          if (!nameInput.value.trim()) {
+            nameError.style.display = 'block';
+            isValid = false;
+          } else {
+            nameError.style.display = 'none';
+          }
+
+          const emailPattern = /^[^s@]+@[^s@]+.[^s@]+$/;
+          if (!emailPattern.test(emailInput.value.trim())) {
+            emailError.style.display = 'block';
+            isValid = false;
+          } else {
+            emailError.style.display = 'none';
+          }
+
+          if (!messageInput.value.trim()) {
+            messageError.style.display = 'block';
+            isValid = false;
+          } else {
+            messageError.style.display = 'none';
+          }
+
+          if (isValid) {
+            formStatus.style.color = '#00FF66';
+            formStatus.textContent = 'Thank you! Your message has been sent successfully.';
+            contactForm.reset();
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html>
